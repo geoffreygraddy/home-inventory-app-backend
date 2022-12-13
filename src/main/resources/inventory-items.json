@@ -1,0 +1,38 @@
+[
+  {
+    "_class": "com.homeinventory.backend.models.InventoryItem",
+    "id": 1,
+    "name": "LG Household Refrigerator",
+    "modelNumber": "LRFDS2016S /01",
+    "serialNumber": "111KRJU3M812",
+    "description": "30 cu. ft. French Door Smart Refrigerator, Door-In-Door, Dual Ice Makers with Craft Ice, PrintProof Stainless Steel",
+    "amountPaid": "3099.99",
+    "purchasedDate": "2021-05-30",
+    "purchasedFrom": "Lowes",
+    "location": "Kitchen"
+  },
+  {
+    "_class": "com.homeinventory.backend.models.InventoryItem",
+    "id": 2,
+    "name": "LG Front Load Washer",
+    "modelNumber": "WM3600HWA /01",
+    "serialNumber": "012TNNH01927",
+    "description": "4.5 cu. ft. Ultra Large Capacity Smart wi-fi Enabled Front Load Washer with Built-In Intelligence & Steam Technology",
+    "amountPaid": "849.00",
+    "purchasedDate": "2022-01-09",
+    "purchasedFrom": "Lowes",
+    "location": "Laundry Room"
+  },
+  {
+    "_class": "com.homeinventory.backend.models.InventoryItem",
+    "id": 3,
+    "name": "LG Electric Dryer",
+    "modelNumber": "DLEX3700W",
+    "serialNumber": "007KWGG2Y071",
+    "description": "7.4 cu. ft. Ultra Large Capacity Smart wi-fi Enabled SteamDryer™",
+    "amountPaid": "649.99",
+    "purchasedDate": "2020-09-11",
+    "purchasedFrom": "Best Buy",
+    "location": "Laundry Room"
+  }
+]

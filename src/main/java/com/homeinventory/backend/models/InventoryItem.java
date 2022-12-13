@@ -1,17 +1,43 @@
 package com.homeinventory.backend.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import java.util.Date;
 
+@Entity
+@JsonIgnoreProperties(value = {"hibernateLazyInitializer","handler"})
 public class InventoryItem {
 
+    @Id
+    @GeneratedValue
     private Long id;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "modelNumber")
     private String modelNumber;
+
+    @Column(name = "serialNumber")
     private String serialNumber;
+
+    @Column(name = "description", length = 16384)
     private String description;
+
+    @Column(name = "amountPaid")
     private Double amountPaid;
+
+    @Column(name = "purchasedDate")
     private Date purchasedDate;
+
+    @Column(name = "purchasedFrom")
     private String purchasedFrom;
+
+    @Column(name = "location")
     private String location;
 
     /**
